@@ -25,6 +25,7 @@ hs_err_pid*
 # unneeded files
 .idea/dataSources.*
 .idea/workspace.xml
+.idea
 
 # logs files
 *.log
