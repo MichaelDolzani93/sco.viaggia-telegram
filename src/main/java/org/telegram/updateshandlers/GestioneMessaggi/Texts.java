@@ -125,9 +125,9 @@ public class Texts {
     public static String textError(Language language) {
         switch (language) {
             case ITALIANO:
-                return "Alquanto inaspettato...";
+                return "Alquanto inaspettato..";
             case ENGLISH:
-                return "Quite unexpected...";
+                return "Quite unexpected..";
             case ESPANOL:
                 return "Bastante inesperado";
             default:
@@ -247,13 +247,13 @@ public class Texts {
     public static String textAutobusHelp(Language language) {
         switch (language) {
             case ITALIANO:
-                return "Seleziona la linea desiderata per conoscere gli orari e le fermate nelle tue vicinanze.\n" +
-                        "La barra in basso permette di scorrere le fasce orarie";
+                return "Seleziona la linea desiderata per conoscere gli orari\n" +
+                        "La barra numerata in basso permette di scorrere tra le fasce orarie";
             case ENGLISH:
-                return "Select a line to view the timetable and the stops in your area.\n" +
-                        "The bar allows to select a specific time slot";
+                return "Select a line to view its timetable\n" +
+                        "The numeric bar allows to select a specific time slot";
             case ESPANOL:
-                return "Selecciona la linea deseada para conocer los horarios y la parada más cercanas.";
+                return "Selecciona la linea deseada para conocer los horarios";
             default:
                 return "Impossible";
         }
@@ -270,11 +270,11 @@ public class Texts {
     public static String textTrainHelp(Language language) {
         switch (language) {
             case ITALIANO:
-                return "Seleziona il treno desiderato per conoscere gli orari e le stazioni nelle tue vicinanze.\n" +
-                        "La barra in basso permette di scorrere le fasce orarie";
+                return "Seleziona il treno desiderato per conoscere gli orari\n" +
+                        "La barra numerata in basso permette di scorrere tra le fasce orarie";
             case ENGLISH:
-                return "Select a train to view its timetable and the stations in your area\n" +
-                        "The bar allows to select a specific time slot";
+                return "Select a train to view its timetable\n" +
+                        "The numeric bar allows to select a specific time slot";
             case ESPANOL:
                 return "Selecciona el tren deseado para conocer los horaros y las estaciones más cercanas\n" +
                         "La barra de abajo permite de mover la banda horaria";
@@ -295,10 +295,10 @@ public class Texts {
     public static String textParkingsHelp(Language language) {
         switch (language) {
             case ITALIANO:
-                return "Seleziona il parcheggio desiderato per conoscere la disponibilità e la sua posizione.\n" +
+                return "Seleziona il parcheggio desiderato per conoscere la disponibilità e la sua posizione\n" +
                         "Inoltre puoi inviare la tua posizione per trovare i parcheggi piu vicini";
             case ENGLISH:
-                return "Select a parking to see if it is available and find its location.\n" +
+                return "Select a parking to see if it is available and find its location\n" +
                         "What's more, you can send your location to know near parkings";
             case ESPANOL:
                 return "Selecciona el aparcamiento deseado para conocer la disponibilidad y su posición\n" +
@@ -323,10 +323,10 @@ public class Texts {
     public static String textBikeSharingsHelp(Language language) {
         switch (language) {
             case ITALIANO:
-                return "Seleziona il punto bici desiderato per conoscere la disponibilità e la sua posizione.\n" +
+                return "Seleziona il punto bici desiderato per conoscere la disponibilità e la sua posizione\n" +
                         "Inoltre puoi inviare la tua posizione per trovare i punti bici piu vicini";
             case ENGLISH:
-                return "Select a bike sharing to see if it is available and find its location.\n" +
+                return "Select a bike sharing to see if it is available and find its location\n" +
                         "What's more, you can send your location to know bike sharings";
             case ESPANOL:
                 return "Selecciona el bike sharing deseado para conocer la disponibilidad y su posición\n" +
